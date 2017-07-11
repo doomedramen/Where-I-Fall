@@ -36,15 +36,22 @@
     html, body {
         min-height: 100%;
         background-color: #F3F6FA;
+        height: 100%;
+        margin: 0;
     }
 
     body {
 
+        background: url('/assets/img/header_bg.png') no-repeat center bottom fixed;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
     }
 
-    .centered {
+    .landing_page_logo {
         position: fixed;
-        top: 50%;
+        top: 40%;
         left: 50%;
         /* bring your own prefixes */
         transform: translate(-50%, -50%);
@@ -55,16 +62,9 @@
 
 <body>
 
-<div class="centered">
-    <img class="" src="./assets/img/header_text.png"
-         style="max-width:512px; width:100%; margin:0 auto; display:block;">
-    <!--<h1 style="text-align: center; font-weight: 200;font-size: 4rem;">EP1, This August</h1>-->
-</div>
+<img class="landing_page_logo" src="/assets/img/header_text.png"
+     style="max-width:512px; width:100%; margin:0 auto; display:block;">
 
-<img src="./assets/img/header_bg.png" style="position: absolute;
-    bottom: 0;
-    width: 100%;
-    z-index: -1;">
 
 </body>
 
