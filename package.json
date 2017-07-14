@@ -1,0 +1,24 @@
+{
+  "name": "whereifall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wookoouk/Where-I-Fall.git"
+  },
+  "author": "Martin Page",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wookoouk/Where-I-Fall/issues"
+  },
+  "homepage": "https://github.com/wookoouk/Where-I-Fall#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "less": "^2.7.2",
+    "replace-ext": "^1.0.0"
+  }
+}

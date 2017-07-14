@@ -27,30 +27,43 @@
 
     <link rel="icon" type="image/x-icon" href="http://www.whereifall.com/favicon.ico"/>
 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://gitcdn.link/repo/Chalarangelo/mini.css/master/dist/mini-default.min.css">
+
+    <style>
+
+        html, body {
+            min-height: 100%;
+            background-color: #F3F6FA;
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            background: url('/assets/img/header_bg.png') no-repeat center bottom fixed;
+            -webkit-background-size: contain;
+            -moz-background-size: contain;
+            -o-background-size: contain;
+            background-size: contain;
+        }
+
+        .landing_page_logo {
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            /* bring your own prefixes */
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
 
 </head>
 
 <body>
 
-<style>
-    html, body {
-        height: 100%;
-        min-height: 100%;
-    }
-
-    body {
-        background: url('/assets/img/header_bg.png') no-repeat center bottom fixed;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
-    }
-
-</style>
-
 <img class="landing_page_logo" src="/assets/img/header_text.png"
      style="max-width:512px; width:100%; margin:0 auto; display:block;">
 
+
 </body>
+
 </html>

@@ -27,30 +27,50 @@
 
     <link rel="icon" type="image/x-icon" href="http://www.whereifall.com/favicon.ico"/>
 
-    <link rel="stylesheet" href="/style.css">
+    <meta name="theme-color" content="#333333">
 
+
+    <style>
+
+        html, body {
+            background-color: #F3F6FA;
+            margin: 0;
+        }
+
+        .hero {
+            background: url('../assets/img/header_bg.png') no-repeat center bottom;
+            -webkit-background-size: contain;
+            -moz-background-size: contain;
+            -o-background-size: contain;
+            background-size: contain;
+        }
+
+        .hero-body {
+            padding: 100px 50px;
+        }
+
+        .hero .hero-body .logo {
+            max-width: 512px;
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+
+
+    </style>
 </head>
+
 
 <body>
 
-<style>
-    html, body {
-        height: 100%;
-        min-height: 100%;
-    }
-
-    body {
-        background: url('/assets/img/header_bg.png') no-repeat center bottom fixed;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
-    }
-
-</style>
-
-<img class="landing_page_logo" src="/assets/img/header_text.png"
-     style="max-width:512px; width:100%; margin:0 auto; display:block;">
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <img class="logo" src="../assets/img/header_text.png">
+        </div>
+    </div>
+</section>
 
 </body>
+
 </html>
