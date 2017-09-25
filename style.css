@@ -12,10 +12,7 @@ body {
 }
 .hero {
   background: url('/assets/img/header_bg.png') no-repeat center bottom;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background-size: 50% 100%;
 }
 .hero-body {
   padding: 100px 50px;
